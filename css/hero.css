@@ -36,9 +36,20 @@ a{
 	font-size: 20px;
 }
 
+a:hover{
+	background-color: #BB8FCE;
+	color: white;
+
+}
+
 footer{
 	text-align: center;
-	color: white;
+	background-color: #512E5F;
+	padding: 20px;
+}
+
+footer p{
+	margin: 0;
 }
 
 header h1{
@@ -54,8 +65,12 @@ header img{
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
 
 }
 
-
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
